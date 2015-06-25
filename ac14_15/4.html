@@ -766,21 +766,6 @@ for (var i = 1; i < divCount; i++) {
 <!-- End page loading JS -->
 
 </div>
-<script language="javascript">
 
-     function showConfirm() {
-           navigator.notification.confirm(
-              '¿Seguro que quiere cerrar la aplicación?', // mensaje a mostrar
-              exitFromApp, // callback a invocar cuando el botón es presionado
-              'Salir', // titulo de la ventana
-              'Cancelar' // etiquetas de los botones
-           );
-     }
-
-     function exitFromApp(buttonIndex) {
-            if (buttonIndex==2){ navigator.app.exitApp();}
-     }
-
-</script>
 </body>
 </html>
